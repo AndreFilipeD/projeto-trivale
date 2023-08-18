@@ -1,32 +1,37 @@
+CAPITULO 1 - A HISTÓRIA DO TRICICLO
+CAPITULO 2 - ZECA, O TERCEIRO TRIVALISTA
+CAPITULO 3 - A CURIOSA TRÍADE OCULTA
 ________________________________________
 PROLOGO
-o Tributo
+O Tributo
 ________________________________________
 O GRANDE DRAGÃO VERMELHO
 Sistema Triangulado
 Customizações Triviais
 ________________________________________
-A HISTÓRIA DO TRICICLO
+SURGIMENTO DO TRICICLO
 AC/DC
 SECULO XXI
 ________________________________________
-A HISTÓRIA DO TRIVALE
-por um triz
-Trilhando novos horizontes
-________________________________________
-A HISTÓRIA DO ZECA
+A LENDA DE ZECA
 Triagnostico
 Experiências
+________________________________________
+ORIGEM DO TRIVALE
+Por um triz
+Trilhando novos horizontes
+________________________________________
+ENCONTROS TRIUNFANTES
+A grande travessia
+Os encontros de irmãos
 ________________________________________
 O PERTURBADOR NUMERO 3
 A Trindade Secreta
 CIPA???
 ________________________________________
-ENCONTROS TRIUNFANTES
-a grande travessia
-os encontros de irmãos
-________________________________________
 EPILOGO
-o rumo ao sol
+O rumo ao sol
 ________________________________________
 CREDITOS
+__________________________________________________
+position: sticky;

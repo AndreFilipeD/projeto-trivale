@@ -8,7 +8,7 @@
 div.background{
     width: 100vw;
     height: 300px;
-    background-color: black;
+    background-color: rgb(83, 37, 37);
     color: white;
 }
 nav{
@@ -23,8 +23,15 @@ footer{
     background-color: darkred;
 }
 footer > p{
+    
     font-weight: 900;
     color: white;
     text-align: center;
     padding-top: 4.4vh;
+}
+header > nav > div.capitulo{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-color: blue;
 }
