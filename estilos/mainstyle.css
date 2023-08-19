@@ -2,6 +2,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Rye&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
 
 *{
     margin: -0px;
@@ -19,8 +20,18 @@ div.background{
     background-position: bottom left;
 }
 div.background p{
-    text-align: right;
-    padding-right: 50px;
+    border-radius: 20px;
+    /*
+    background-color: rgba(0, 0, 0, 0.329);
+    backdrop-filter: blur(5px);*/
+    margin-right: 6vw;
+    margin-top: -30px;
+    color: rgba(255, 255, 255, 0.664);
+    font-size: calc((120px - 3vw)/2);
+    font-family: 'Courgette', cursive;
+    padding-right: 10px;
+    margin-left: 50vw;
+    text-align: center;
 }
 div.background h1{
     font-size: 16vw;
@@ -30,6 +41,7 @@ div.background h1{
     padding-top: 0.2vw;
     padding-right: 4vw;
     color: white;
+    margin-bottom: 20px;
 }
 div.frontground{
     margin-top: -755px;
