@@ -25,15 +25,18 @@ div.background p{
     background-color: rgba(0, 0, 0, 0.329);
     backdrop-filter: blur(5px);*/
     margin-right: 6vw;
-    margin-top: -30px;
+    margin-top: calc(30px - 5vw);
+    /*margin-top: -30px;*/
     color: rgba(255, 255, 255, 0.664);
-    font-size: calc((120px - 3vw)/2);
+    font-size: 40px;
+    /*font-size: calc((90px - 2vw)/2);*/
     font-family: 'Courgette', cursive;
     padding-right: 10px;
     margin-left: 50vw;
     text-align: center;
 }
 div.background h1{
+    margin-top: calc(100px - 5vw);
     font-size: 16vw;
     font-weight: 400;
     font-family: 'Rye', cursive;
@@ -45,7 +48,7 @@ div.background h1{
 }
 div.frontground{
     margin-top: -755px;
-    margin-left: calc(-10vw * -1 - 200px);
+    margin-left: calc(-10vw * -1 - 250px);
     width: auto;
     height: auto;
     /*
