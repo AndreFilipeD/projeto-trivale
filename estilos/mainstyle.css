@@ -4,37 +4,38 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@500&display=swap');
+
 *{
     margin: -0px;
     padding: 0px;
     font-family: Arial, Helvetica, sans-serif;
     overflow-x: hidden;
 }
-
+html{
+    background-color: black;
+}
 div.background{
     width: 100vw;
     height: 585px;
-    background-image: url(../imagens/background2.jpg);
+    background-image: url(../imagens/background2.png);
     background-size: cover;
     background-attachment: fixed;
     background-position: bottom left;
 }
 div.background p{
     border-radius: 20px;
-    /*
-    background-color: rgba(0, 0, 0, 0.329);
-    backdrop-filter: blur(5px);*/
     margin-right: 6vw;
     margin-top: calc(-1vw - 50px / 2);
-    /*margin-top: calc(10px - 5vw);*/
-    /*margin-top: -30px;*/
     color: rgba(255, 255, 255, 0.664);
     font-size: 40px;
-    /*font-size: calc((90px - 2vw)/2);*/
     font-family: 'Courgette', cursive;
     padding-right: 10px;
     margin-left: 50vw;
     text-align: center;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.507);
+    /*backdrop-filter: blur(10px);
+    background-color: rgba(255, 0, 0, 0.021);*/
 }
 div.background h1{
     margin-top: calc(100px - 5vw);
@@ -46,72 +47,94 @@ div.background h1{
     padding-right: 4vw;
     color: white;
     margin-bottom: 20px;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.507);
 }
 div.frontground{
     margin-top: -755px;
     margin-left: calc(-10vw * -1 - 250px);
     width: auto;
     height: auto;
-    /*
-    width: auto;
-    height: auto;
-    margin-top: -900px;
-    width: 100vw;
-    height: 1000px;
-    background-image: url(../imagens/zecadark3.png);
-    background-size: 70vw cover;
-    background-position: left center;
-    background-repeat: no-repeat;*/
 }
-
 header > aside{
     box-shadow: 0px 0px 20px 20px rgba(0, 0, 0, 0.589);
-    background-image: url(../imagens/ruido.png);
-    /*background-color: rgb(131, 89, 89);*/
+    background-image: url(../imagens/ruidored.png);
     margin-top: -4px;
     height: 300px;
     width: 100vw;
 }
-
 header > aside > p{
+    font-family: 'Courgette', cursive;
     font-size: 40px;
     padding-top: 120px;
     text-align: center;
     font-weight: 600;
-    color: white;
+    color: rgba(255, 255, 255, 0.938);
+    text-shadow: 1px 1px 6px black;
 }
-
+main > nav > h1{
+    color: rgb(53, 53, 53);
+    margin: auto;
+    text-align: center;
+    line-height: 60px;
+    max-width: 800px;
+    padding: 50px;
+    font-family: 'Rye', cursive;
+    font-weight: 400;
+    font-size: 3em;
+}
+main > nav > p{
+    color: rgb(53, 53, 53);
+    margin: auto;
+    text-align: justify;
+    line-height: 30px;
+    max-width: 800px;
+    padding: 50px;
+    font-family: 'Archivo Narrow', sans-serif;
+    font-weight: 400;
+    font-size: 1.6em;
+}
 main > nav{
     text-align: center;
-    background-color: rgb(80, 76, 76);
+    /*background-image: url(../imagens/ruidogray2.png);*/
+    background-image: url(../imagens/ruidowhite.png);
     width: 100vw;
     padding-top: 50px;
     padding-bottom: 50px;
-    
+    box-shadow: inset 0px 0px 12px rgba(0, 0, 0, 0.329);
 }
-main > nav > div.capitulo{
+main > nav > div#botaocapitulo{
+    border-radius: 10px;
     display: inline-block;
+    margin-top: 50px;
     margin-right: 10px;
     margin-bottom: 10px;
     width: 400px;
     height: 450px;
     background-color: black;
-    
 }
-
+main > nav > div.capitulo1{
+    background-image: url(../imagens/capitulo1.jpg);
+    background-position: top left;
+}
+main > nav > div#botaocapitulo > h2{
+    font-family: 'Archivo Narrow', sans-serif;
+    padding: 20px;
+    color: white;
+    backdrop-filter: blur(8px);
+    background-color: rgba(165, 42, 42, 0.623);
+}
 footer{
     width: 100vw;
     height: 100px;
-    background-color: darkred;
+    background-image: url(../imagens/ruidored.png);
     
 }
-
 footer > p{
     
     font-size: 1em;
-    font-weight: 900;
+    font-weight: 600;
     color: white;
     text-align: center;
-    padding-top: 4.4vh;
+    padding-top: 40px;
 }
 
