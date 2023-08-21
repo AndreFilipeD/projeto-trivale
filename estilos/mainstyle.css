@@ -81,6 +81,18 @@ main > nav > h1{
     font-weight: 400;
     font-size: 3em;
 }
+main > nav > h2{
+    color: rgb(53, 53, 53);
+    /*margin-left: auto;
+    margin-bottom: -30px;*/
+    margin: auto auto auto 50px;
+    text-align: left;
+    line-height: 40px;
+    max-width: 600px;
+    font-family: 'Rye', cursive;
+    font-weight: 400;
+    font-size: 2em;
+}
 main > nav > p{
     color: rgb(53, 53, 53);
     margin: auto;
@@ -91,6 +103,7 @@ main > nav > p{
     font-family: 'Archivo Narrow', sans-serif;
     font-weight: 400;
     font-size: 1.6em;
+    margin-bottom: 20px;
 }
 main > nav{
     text-align: center;
@@ -98,7 +111,7 @@ main > nav{
     background-image: url(../imagens/ruidowhite.png);
     width: 100vw;
     padding-top: 50px;
-    padding-bottom: 50px;
+    padding-bottom: 200px;
     box-shadow: inset 0px 0px 12px rgba(0, 0, 0, 0.329);
 }
 main > nav > a > div#botaocapitulo{
@@ -124,6 +137,9 @@ main > nav > a > div.capitulo1{
     vertical-align: center;
     text-align: center;
     color: transparent;
+}
+main > nav > a{
+    text-decoration: none;
 }
 main > nav > a > div.capitulo2{
     background-image: url(../imagens/capitulo2.jpg);
