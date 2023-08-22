@@ -164,6 +164,20 @@ main > nav > a > div#botaocapitulo > h2{
     backdrop-filter: blur(8px);
     background-color: rgba(165, 42, 42, 0.623);
 }
+a#next{
+    background-image: url(../imagens/ruidored.png);
+    border-radius: 20px;
+    margin-left: 10px;
+    display: inline-block;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    font-size: 1.6em;
+    font-family: 'Archivo Narrow', sans-serif;
+    text-decoration: none;
+}
+a#next:hover{
+    background-image: url(../imagens/ruidogray3.png);
+}
 footer{
     width: 100vw;
     height: 100px;
