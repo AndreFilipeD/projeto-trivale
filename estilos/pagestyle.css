@@ -70,9 +70,23 @@ header > aside > p{
     color: rgba(255, 255, 255, 0.938);
     text-shadow: 1px 1px 6px black;
 }
+article > img{
+    display: block;
+    margin-top: -50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 150px;
+    max-width: 90%;
+}
 main{
     background-image: url(../imagens/ruidowhite.png);
     box-shadow: inset 0px 0px 
+}
+p#picredits{
+    text-indent: 30px;
+    margin-top: -200px;
+    font-size: 1.2em;
+    color: rgb(167, 167, 167);
 }
 main > article{
     max-width: 1200px;
@@ -83,6 +97,21 @@ main > article{
     padding-top: 50px;
     padding-bottom: 200px;
     12px rgba(0, 0, 0, 0.329);
+}
+main > nav{
+    display: inline-block;
+    margin: auto;
+}
+main > nav > a{
+    padding-right: 50px;
+    padding-left: 50px;
+    color: rgb(53, 53, 53);
+    font-size: 1.6em;
+    font-family: 'Archivo Narrow', sans-serif;
+    text-decoration: none;
+}
+main > nav > a:hover{
+    background-image: url(../imagens/ruidored.png);
 }
 main > article > h1{
     color: rgb(53, 53, 53);
