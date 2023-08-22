@@ -88,6 +88,13 @@ p#picredits{
     font-size: 1.2em;
     color: rgb(167, 167, 167);
 }
+p#ditado{
+    font-family: 'Courgette', cursive;
+    text-indent: 30px;
+    margin-top: 0px;
+    font-size: 2em;
+    color: rgba(168, 33, 33, 0.527);
+}
 main > article{
     max-width: 1200px;
     margin: auto;
