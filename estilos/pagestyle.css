@@ -99,19 +99,40 @@ main > article{
     12px rgba(0, 0, 0, 0.329);
 }
 main > nav{
+    padding: 10px;
     display: inline-block;
     margin: auto;
+    background-image: url(../imagens/ruidored.png);
+    width: 100vw;
 }
 main > nav > a{
-    padding-right: 50px;
-    padding-left: 50px;
-    color: rgb(53, 53, 53);
+    margin-left: 10px;
+    display: inline-block;
+    padding-right: 30px;
+    padding-left: 30px;
+    color: rgb(255, 255, 255);
     font-size: 1.6em;
     font-family: 'Archivo Narrow', sans-serif;
     text-decoration: none;
 }
 main > nav > a:hover{
+    background-image: url(../imagens/ruidowhite.png);
+    border-radius: 5px;
+    color: rgb(53, 53, 53);
+}
+a#next{
     background-image: url(../imagens/ruidored.png);
+    border-radius: 20px;
+    margin-left: 10px;
+    display: inline-block;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    font-size: 1.6em;
+    font-family: 'Archivo Narrow', sans-serif;
+    text-decoration: none;
+}
+a#next:hover{
+    background-image: url(../imagens/ruidogray3.png);
 }
 main > article > h1{
     color: rgb(53, 53, 53);
@@ -149,6 +170,7 @@ main > article > p{
     margin-bottom: 20px;
 }
 footer{
+    margin-top: -6px;
     width: 100vw;
     height: 100px;
     background-image: url(../imagens/ruidored.png);

@@ -70,6 +70,7 @@ header > aside > p{
     color: rgba(255, 255, 255, 0.938);
     text-shadow: 1px 1px 6px black;
 }
+
 main > nav > h1{
     color: rgb(53, 53, 53);
     margin: auto;
@@ -94,6 +95,7 @@ main > nav > h2{
     font-size: 2em;
 }
 main > nav > p{
+    text-indent: 40px;
     color: rgb(53, 53, 53);
     margin: auto;
     text-align: justify;
