@@ -78,6 +78,12 @@ article > img{
     margin-bottom: 150px;
     max-width: 90%;
 }
+strong{
+    color: brown;
+    font-family: 'Archivo Narrow', sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+}
 main{
     background-image: url(../imagens/ruidowhite.png);
     box-shadow: inset 0px 0px 
@@ -164,6 +170,10 @@ main > article > h2{
     font-weight: 400;
     font-size: 2em;
 }
+a#marklink{
+    font-size: 1em;
+    color: rgba(168, 33, 33, 0.527);
+}
 main > article > p{
     color: rgb(53, 53, 53);
     margin: auto;
@@ -175,6 +185,21 @@ main > article > p{
     font-weight: 400;
     font-size: 1.6em;
     margin-bottom: 20px;
+}
+div.video{
+    background-image: url(../imagens/ruidored.png);
+    padding: 20px;
+    padding-bottom: 50%;
+    margin: 0px -20px 30px -20px;
+    position: relative;
+}
+
+div.video > iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
 }
 footer{
     margin-top: -6px;
@@ -191,4 +216,8 @@ footer > p{
     text-align: center;
     padding-top: 40px;
 }
-
+a#github{
+    font-size: 1em;
+    color: rgb(255, 255, 255);
+    font-weight: 800;
+}

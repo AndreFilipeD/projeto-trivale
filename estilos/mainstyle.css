@@ -70,7 +70,12 @@ header > aside > p{
     color: rgba(255, 255, 255, 0.938);
     text-shadow: 1px 1px 6px black;
 }
-
+strong{
+    color: brown;
+    font-family: 'Archivo Narrow', sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+}
 main > nav > h1{
     color: rgb(53, 53, 53);
     margin: auto;
@@ -122,9 +127,10 @@ main > nav > a > div#botaocapitulo{
     margin-top: 50px;
     margin-right: 10px;
     margin-bottom: 10px;
-    width: 400px;
+    width: 380px;
     height: 450px;
     background-color: black;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.377);
 }
 main > nav > a > div#botaocapitulo:hover{
     background-image: url(../imagens/selected.png);
@@ -158,7 +164,10 @@ main > nav > a > div.capitulo3{
     color: transparent;
 }
 main > nav > a > div#botaocapitulo > h2{
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.479);
+    font-weight: 200;
     font-family: 'Archivo Narrow', sans-serif;
+    font-size: 1.7em;
     padding: 20px;
     color: white;
     backdrop-filter: blur(8px);
@@ -191,5 +200,10 @@ footer > p{
     color: white;
     text-align: center;
     padding-top: 40px;
+}
+a#github{
+    font-size: 1em;
+    color: rgb(255, 255, 255);
+    font-weight: 800;
 }
 
